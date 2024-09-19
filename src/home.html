@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Главная</title>
+        <link rel="icon" type="image/x-icon" href="./assets/images/logo.svg" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <include src="./components/_modal.html"></include>
+            <include src="./components/_header.html"></include>
+            <main>
+                <include src="./components/_main.html"></include>
+                <include src="./components/_diet.html"></include>
+                <include src="./components/_ourMenu.html"></include>
+                <include src="./components/_excellent.html"></include>
+                <include src="./components/_quality.html"></include>
+                <include src="./components/_fashion.html"></include>
+                <include src="./components/_reservation.html"></include>
+                <include src="./components/_calories.html"></include>
+            </main>
+            <include src="./components/_footer.html"></include>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+        <script>
+            $('#datepicker').flatpickr({
+                locale: 'ru',
+                dateFormat: 'd/m/Y',
+                disableMobile: 'true'
+            });
+        </script>
+    </body>
+</html>

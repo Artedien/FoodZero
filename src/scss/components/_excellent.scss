@@ -1,0 +1,107 @@
+.excellent {
+    background: #ebf0e4;
+    // .excellent__container
+
+    &__container {
+    }
+
+    // .excellent__inner
+
+    &__inner {
+        display: flex;
+        position: relative;
+        padding: 23.4rem 0 0 0;
+        gap: 6.1rem;
+        @media (max-width: 1000px){
+           flex-direction: column-reverse;
+        }
+    }
+
+    // .excellent__image-box
+
+    &__image-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    // .excellent__decor-image
+
+    &__decor-image {
+
+        position: absolute;
+        top: 11.1rem;
+        left: 0;
+        width: 36.5rem;
+        height: 37.2rem;
+        z-index: 1;
+        // transform: rotateY(34deg) scale(-1, 1);
+        // transform-origin: center;
+    }
+
+    // .excellent__image
+
+    &__image {
+        width: 93.5rem;
+        height: 93.3rem;
+        z-index: 100;
+        position: relative;
+        @media (max-width: 1000px){
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // .excellent__content-box
+
+    &__content-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .excellent__title-box
+
+    &__title-box {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+    }
+
+    // .excellent__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 10.8rem;
+        line-height: 111%;
+        color: #000;
+    }
+
+    // .excellent__disc
+
+    &__disc {
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        width: 64.9rem;
+        @media (max-width: 1000px){
+            width: 100%;
+        }
+    }
+
+    // .excellent__content-image
+
+    &__content-image {
+        align-self: flex-end;
+        width: 45.6rem;
+        height: 46.4rem;
+        margin: 13.2rem 0 0 0;
+        @media (max-width: 1000px){
+            margin: 0 auto;
+            width: 70%;
+            height: 70%;
+        }
+    }
+}
+.container {
+}

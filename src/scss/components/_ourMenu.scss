@@ -1,0 +1,116 @@
+.ourmenu {
+    // .ourmenu__container
+    padding: 17.6rem;
+    position: relative;
+    @media (max-width: 1000px){
+        padding: 0 0 5rem 0;
+    }
+    &__container {
+    }
+
+    // .ourmenu__inner
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 15.8rem;
+    }
+
+    // .ourmenu__title-box
+
+    &__title-box {
+        color: $black;
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+        @media (max-width: 1000px){
+            text-align: center;
+        }
+    }
+
+    // .ourmenu__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 10.8rem;
+        line-height: 111%;
+    }
+
+    // .ourmenu__disc
+
+    &__disc {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        width: 53.6rem;
+    }
+
+    // .ourmenu__card-box
+
+    &__card-box {
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6rem 10.8rem;
+        z-index: 5;
+        @media (max-width: 1000px){
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    // .ourmenu__card
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+
+    // .ourmenu__card-price
+
+    &__card-price {
+        color: $black;
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 133%;
+        text-align: right;
+    }
+
+    // .ourmenu__card-delimiter
+
+    &__card-delimiter {
+        border: 0.4rem dashed $black;
+    }
+
+    // .ourmenu__card-title
+
+    &__card-title {
+        color: $black;
+        font-weight: 700;
+        font-size: 6.8rem;
+        line-height: 124%;
+    }
+
+    // .ourmenu__card-disc
+
+    &__card-disc {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #4d4d4d;
+    }
+
+    // .ourmenu__decor
+
+    &__decor {
+        width: 87.9rem;
+        height: 94.6rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

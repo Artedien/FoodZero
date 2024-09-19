@@ -1,0 +1,112 @@
+@import './mixins';
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+// colors
+$greenDark: #233000;
+$green: #5e6600;
+$greenLight: #9caa00;
+$lime: #ebf0e4;
+$black: #000000;
+$gray: #4d4d4d;
+$grayLight: #b0b0b0;
+$white: #ffffff;
+// body
+body {
+    font-family: 'Rufina', sans-serif;
+    color: #42454a;
+    font-weight: 700;
+    font-style: normal;
+
+
+    .lock & {
+        overflow: hidden;
+        touch-action: none;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    min-height: 100vh;
+    opacity: 0;
+
+    transition: opacity 0.3s, z-index 0.3s;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    &.active {
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+// main
+main {
+    flex-grow: 1;
+}
+
+section {
+    padding: 0;
+    @media (max-width: 48em) {
+    }
+    &._first {
+        padding: 5.7rem 0 9rem;
+        @media (max-width: 48em) {
+            padding: 2.6rem 0 10rem;
+        }
+    }
+}
+
+.bolt_text {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.small_text {
+    color: #42454a;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.desc {
+    color: #42454a;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.list-item {
+    padding-left: 68px;
+    position: relative;
+}
+.list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('./assets/images/icons/galochka.svg');
+    width: 49px;
+    height: 49px;
+}
+
+@import './ui/ui';
+// @import './components/_header';
+// @import './components/_footer';

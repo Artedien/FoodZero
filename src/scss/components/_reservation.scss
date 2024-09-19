@@ -1,0 +1,213 @@
+.reservation {
+    // .reservation__container
+
+    padding: 23.1rem 0 26rem 0;
+    background: #ebf0e4;
+    &__container {
+    }
+
+    // .reservation__inner
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 13.3rem;
+    }
+
+    // .reservation__title-box
+
+    &__title-box {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+    }
+
+    // .reservation__title
+
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 10.8rem;
+        line-height: 111%;
+        color: #000;
+    }
+
+    // .reservation__disc
+
+    &__disc {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    // .reservation__form-box
+
+    &__form-box {
+        display: flex;
+        justify-content: space-between;
+        gap: 4.8rem;
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            align-items:center;
+        }
+    }
+
+    // .reservation__form-input
+
+    &__form-input {
+        background-color: #ebf0e4;
+        border: 0.2rem solid #000;
+        padding: 3rem 4rem;
+        width: 51.6rem;
+        height: 9.6rem;
+    }
+
+    // .reservation__form-time
+
+    &__form-time {
+        & select {
+            font-family: 'Lato', sans-serif;
+            background-color: #ebf0e4;
+            border: 0.2rem solid #000;
+            padding: 3rem 4rem;
+            width: 51.6rem;
+            height: 9.6rem;
+
+            font-weight: 400;
+            font-size: 2.4rem;
+            line-height: 140%;
+            letter-spacing: 0.02em;
+            color: #000;
+        }
+    }
+
+    // .reservation__form-person
+
+    &__form-person {
+        & select {
+            font-family: 'Lato', sans-serif;
+            background-color: #ebf0e4;
+            border: 0.2rem solid #000;
+            padding: 3rem 4rem;
+            width: 51.6rem;
+            height: 9.6rem;
+
+            font-weight: 400;
+            font-size: 2.4rem;
+            line-height: 140%;
+            letter-spacing: 0.02em;
+            color: #000;
+        }
+    }
+
+    &__form {
+        font-family: 'Lato', sans-serif;
+        font-size: 2.4rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    // .reservation__btn-box
+
+    &__btn-box {
+        justify-content: center;
+        display: flex;
+    }
+
+    // .reservation__btn
+
+    &__btn {
+        background: #233000;
+        border: 0.2rem solid #000;
+        padding: 2rem 4.6rem;
+        width: 34.4rem;
+        height: 8.8rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 150%;
+        color: #fff;
+    }
+}
+.buttons {
+}
+.button-green {
+}
+
+.container {
+}
+.highlight {
+}
+.bar {
+}
+.custom-select {
+    // position: relative;
+    // width: 200px;
+}
+
+.reservation__form-person {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    background-color: #ebf0e4;
+    border: 0.2rem solid #000;
+    padding: 3rem 4rem;
+    width: 51.6rem;
+    height: 9.6rem;
+
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.reservation__select-items {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    // width: 100%;
+    // display: none;
+    z-index: 99;
+}
+
+.reservation__select-items div {
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Lato', sans-serif;
+    background-color: #ebf0e4;
+
+    padding: 3rem 4rem;
+    width: 51.6rem;
+    height: 9.6rem;
+
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.reservation__select-items div:hover {
+    background-color: #ddd;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-arrow-active:after {
+    position: absolute;
+    right: 2rem;
+    content: url(./assets/images/icons/arrow_down.svg);
+    transform: rotate(180deg);
+}
+
+.select-arrow-inactive:after {
+    position: absolute;
+    right: 2rem;
+    content: url(./assets/images/icons/arrow_down.svg);
+}

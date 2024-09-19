@@ -1,0 +1,91 @@
+.header {
+    background-color: #233000;
+    // .header__container
+
+    &__container {
+        display: flex;
+        padding: 4.6rem 0;
+        justify-content: space-between;
+        @media (max-width: 1000px) {
+            padding: 4.6rem ;
+        }
+
+    }
+
+    // .header__logo-box
+
+    &__logo-box {
+        display: flex;
+        align-items: center;
+        gap: 4.5rem;
+        @media (max-width: 1000px) {
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+
+    // .header__logo
+
+    &__logo {
+        width: 30.7rem;
+        height: 11.5rem;
+        @media (max-width: 1000px) {
+            width: 20.7rem;
+            height: 100%;
+        }
+    }
+
+    // .header__logo-btn
+
+    &__logo-btn {
+    }
+
+    // .header__burger-btn-box
+
+    &__burger-btn-box {
+        width: 9.4rem;
+        height: 7.1rem;
+    }
+
+    // .header__order-box
+
+    &__order-box {
+        display: flex;
+        color: $white;
+        gap: 2.6rem;
+        align-items: center;
+        @media (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    // .header__order-tel-box
+
+    &__order-tel-box {
+        font-size: 2.6rem;
+    }
+
+    // .header__order-tel
+
+    &__order-tel {
+        font-family: 'inter', sans-serif;
+        font-weight: 400;
+    }
+
+    // .header__order-btn-box
+
+    &__order-btn-box {
+    }
+
+    // .header__order-btn
+
+    &__order-btn {
+        font-size: 3.2rem;
+        font-weight: 700;
+        font-family: 'Rufina', sans-serif;
+        border: 1px solid;
+        padding: 2rem 4.6rem;
+    }
+}
+.container {
+}

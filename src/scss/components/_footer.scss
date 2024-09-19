@@ -1,0 +1,236 @@
+.footer {
+    // .footer__container
+    background-color: #233000;
+    padding: 13.2rem 0 7.4rem 0;
+    &__container {
+    }
+
+    // .footer__inner
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 13.8rem;
+    }
+
+    // .footer__top-content
+
+    &__top-inner {
+        display: flex;
+        color: $white;
+        gap: 22rem;
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            align-items: center;
+            gap: 5rem;
+        }
+    }
+
+    // .footer__title
+
+    &__title {
+        width: 18.8rem;
+        font-weight: 700;
+        font-size: 6.8rem;
+        @media (max-width: 1000px) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    // .footer__contact-box
+
+    &__contact-box {
+        display: flex;
+        flex-direction: column;
+        gap: 2.8rem;
+        @media (max-width: 1000px) {
+            flex-direction: row;
+        }
+    }
+
+    // .footer__contact-title
+
+    &__contact-title {
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 150%;
+    }
+
+    // .footer__contact-tel-box
+
+    &__contact-tel-box {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 139%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .footer__contact-tel
+
+    &__contact-tel {
+    }
+
+    // .footer__contact-mail
+
+    &__contact-mail {
+    }
+
+    // .footer__contact-address
+
+    &__contact-address {
+        width: 21rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 139%;
+        letter-spacing: 0.02em;
+    }
+
+    // .footer__form-box
+
+    &__form-box {
+        display: flex;
+        flex-direction: column;
+        gap: 5.5rem;
+        @media (max-width: 1000px) {
+            gap: 2rem;
+            align-items: center;
+        }
+    }
+
+    // .footer__form-title
+
+    &__form-title {
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 150%;
+    }
+
+    // .footer__form-input
+
+    &__form-input {
+        display: flex;
+        gap: 2.8rem;
+        @media (max-width: 1000px) {
+            gap: 1rem;
+        }
+    }
+
+    // .footer__form
+
+    &__form {
+        border: 2px solid $white;
+        padding: 3rem 4rem;
+        width: 52.3rem;
+        height: 9.6rem;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: $white;
+        @media (max-width: 1000px) {
+            width: 26rem;
+        }
+    }
+
+    // .footer__btn
+
+    &__btn {
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 150%;
+        padding: 2rem 4.6rem;
+        background-color: #5e6600;
+    }
+
+    // .footer__form-disc
+
+    &__form-disc {
+        font-weight: 400;
+        font-size: 1.4rem;
+        letter-spacing: 0.02em;
+        @media (max-width: 1000px) {
+            font-size: 2rem;
+        }
+    }
+
+    // .footer__delimeter
+
+    &__delimeter {
+    }
+
+    // .footer__bottom
+
+    &__bottom {
+        display: flex;
+
+        border-top: 0.2rem dashed #fff;
+    }
+
+    // .footer__bottom-inner
+
+    &__bottom-inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 5.8rem 0 0 0;
+        @media (max-width: 1000px) {
+            flex-direction: column-reverse;
+            gap: 3rem;
+            align-items:center;
+        }
+    }
+
+    // .footer__copyright
+
+    &__copyright {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: $white;
+    }
+
+    // .footer__social-box
+
+    &__social-box {
+        display: flex;
+        gap: 2.8rem;
+        @media (max-width: 1000px) {
+            gap: 5rem;
+        }
+    }
+
+    // .footer__social-insta
+
+    &__social-insta {
+    }
+
+    // .footer__social-twitter
+
+    &__social-twitter {
+    }
+
+    // .footer__social-facebook
+
+    &__social-facebook {
+    }
+
+    // .footer__social-youtube
+
+    &__social-youtube {
+    }
+}
+.container {
+}
+.highlight {
+}
+.bar {
+}
+.buttons {
+}
+.button-green {
+}

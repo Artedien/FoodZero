@@ -1,0 +1,107 @@
+.diet {
+    background-color: #233000;
+    padding: 14.9rem 0 0 0;
+
+    // .diet__container
+
+    &__container {
+    }
+
+    // .diet__inner
+
+    &__inner {
+        display: flex;
+        gap: 34.4rem;
+        padding: 0 0 22.2rem 0;
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            gap: 5rem;
+        }
+    }
+
+    // .diet__left-box
+
+    &__left-box {
+        display: flex;
+        flex-direction: column;
+        gap: 5.4rem;
+        @media (max-width: 1000px) {
+            flex-direction: column-reverse;
+            gap: 2rem;
+        }
+    }
+
+    // .diet__left-image
+
+    &__left-image {
+        width: 79.2rem;
+        height: 56rem;
+        @media (max-width: 1000px) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // .diet__title-box
+
+    &__title-box {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        gap: 5.4rem;
+    }
+
+    // .diet__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 6.8rem;
+        line-height: 124%;
+        width: 49.3rem;
+        @media (max-width: 1000px) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    // .diet__left-disc
+
+    &__left-disc {
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        width: 58.5rem;
+    }
+
+    // .diet__right-box
+
+    &__right-box {
+        display: flex;
+        flex-direction: column;
+        gap: 8.4rem;
+        @media (max-width: 1000px){
+            gap:2rem;
+        }
+    }
+
+    // .diet__right-disc
+
+    &__right-disc {
+        color: $white;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+    }
+
+    // .diet__right-image
+
+    &__right-image {
+        @media (max-width: 1000px){
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.container {
+}

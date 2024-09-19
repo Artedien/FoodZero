@@ -1,0 +1,265 @@
+.calories {
+    // .calories__container
+    padding: 14.6rem 0 15rem 0;
+    &__container {
+    }
+
+    // .calories__inner
+
+    &__inner {
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 13rem;
+    }
+
+    // .calories__title-box
+
+    &__title-box {
+        width: 110.1rem;
+        height: 29.2rem;
+        display: flex;
+        flex-direction: column;
+        @media (max-width: 1000px) {
+            width: 100%;
+            height: 100%;
+            gap: 3rem;
+        }
+    }
+
+    // .calories__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 10.8rem;
+        line-height: 111%;
+        text-align: center;
+        @media (max-width: 1000px) {
+            font-size: 7.2rem;
+        }
+    }
+
+    // .calories__disc
+
+    &__disc {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    // .calories__card-box
+
+    &__card-box {
+        display: flex;
+        gap: 6rem;
+        @media (max-width: 1000px) {
+            flex-direction: column;
+        }
+    }
+
+    // .calories__card
+
+    &__card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .calories__card-title-box
+
+    &__card-title-box {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        gap: 19.4rem;
+        top: 4.8rem;
+        left: 4rem;
+    }
+
+    // .calories__card-title
+
+    &__card-title {
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 133%;
+    }
+
+    // .calories__card-arrow-box
+
+    &__card-arrow-box {
+        width: 4.8rem;
+        height: 2.8rem;
+    }
+
+    // .calories__card-arrow
+
+    &__card-arrow {
+    }
+
+    // .calories__card-image-box
+
+    &__card-image-box {
+    }
+
+    // .calories__card-image
+
+    &__card-image {
+        width: 50.8rem;
+        height: 71rem;
+    }
+
+    // .calories__swiper
+
+    &__swiper {
+        position: relative;
+        width: 144rem;
+        @media (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+
+    // .calories__swiper-wrapper
+
+    &__swiper-wrapper {
+    }
+
+    // .calories__swiper-slide
+
+    &__swiper-slide {
+        // width: 144.4rem;
+        // margin: 0 10rem;
+    }
+
+    // .calories__swiper-slide-inner
+
+    &__swiper-slide-inner {
+        gap: 8.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .calories__swiper-rewiew
+
+    &__swiper-rewiew {
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 133%;
+        width: 126.2rem;
+        @media (max-width: 1000px) {
+            font-size: 3.4rem;
+            width: 100%;
+        }
+    }
+
+    // .calories__swiper-person
+
+    &__swiper-person {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    // .calories__swiper-peron-image
+
+    &__swiper-peron-image {
+        width: 17rem;
+        height: 17rem;
+    }
+
+    // .calories__swiper-person-name-box
+
+    &__swiper-person-name-box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    // .calories__swiper-person-name
+
+    &__swiper-person-name {
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 150%;
+    }
+
+    // .calories__swiper-person-prof
+
+    &__swiper-person-prof {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        letter-spacing: 0.02em;
+    }
+
+    // .calories__swiper-nav-box
+
+    &__swiper-nav-box {
+        right: 9rem;
+        bottom: 5rem;
+        position: absolute;
+        display: flex;
+        height: 4.8rem !important;
+        width: 23.7rem;
+        @media (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    // .calories__swiper-nav-btn-next
+
+    &__swiper-nav-btn-next {
+        z-index: 50 !important;
+        &::after {
+            content: '' !important;
+        }
+    }
+
+    // .calories__swiper-nav-btn-prev
+
+    &__swiper-nav-btn-prev {
+        z-index: 50 !important;
+        &::after {
+            content: '' !important;
+        }
+    }
+
+    // .calories__swiper-decor-box
+
+    &__swiper-decor-box {
+        position: absolute;
+        top: 1rem;
+        left: 123.5rem;
+    }
+
+    // .calories__swiper-decor
+
+    &__swiper-decor {
+    }
+}
+
+.swiper-pagination {
+    width: 6.2rem;
+    height: 4.8rem;
+    font-weight: 700;
+    font-size: 3.2rem;
+    @media (max-width: 1000px) {
+    }
+}
+
+.container {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-button-next {
+}
+.swiper-button-prew {
+}
