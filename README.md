@@ -14,7 +14,7 @@
 
 ---
 
-[Demo Link <br>![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://artedien.github.io/FoodZero/dist/)
+[Demo Link <br>![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://artedien.github.io/FoodZero/dist/home.html)
 
 
 <h2>📱 My contacts:</h2> 
